@@ -1,0 +1,10 @@
+<div class="register" ng-cloak ng-controller='AuthController'>
+	<form class= action="" method="POST" >
+
+		<input type="text" name="username" placeholder="Username" required="required" ng-model="user.username" />
+		<input type="email" name="email" placeholder="Email" required="required" ng-model="user.email" />
+		<input type="password" name="password" placeholder="Password" required="required" ng-model="user.password"/>
+		<div class='errors'>{{errors}}</div>
+		<md-button type="submit" class='md-raised' ng-click="register(user)">Register</md-button>
+	</form>
+</div>

@@ -1,0 +1,31 @@
+{
+  "name": "PreviouslyOn",
+  "authors": [
+    "fichot_l <lysa.fichot@epitech.eu>"
+  ],
+  "description": "AppBetaseries",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "latest",
+    "bootstrap": "latest",
+    "font-awesome": "latest",
+    "animate.css": "latest",
+    "angular-route": "latest",
+    "angular-resource": "latest",
+    "angular-md5": "^0.1.10",
+    "angular-material": "^1.0.9",
+    "angular-aria": "latest",
+    "angular-messages": "latest",
+
+    "angular-ui-router": "^0.3.1"
+  }
+}

@@ -1,0 +1,11 @@
+<div class="login" ng-cloak ng-controller='AuthController'>
+	<form class= action="" method="POST" >
+
+		<input type="text" name="username" placeholder="Username" required="required" ng-model="user.username" />
+		<input type="password" name="password" placeholder="Password" required="required" ng-model="user.password"/>
+		<md-button type="submit" class='md-raised' ng-click="login(user)">Sign in</md-button>
+		<div class='errors' ng-model='errors'></div>
+		<a ui-sref="register"><md-button class='md-raised' >Create an account</md-button></a>
+
+	</form>
+</div>
